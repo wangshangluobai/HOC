@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "oc-icon"; /* Project id 3490428 */
+  src: url('iconfont.woff2?t=1656480356818') format('woff2');
+}
+
+.oc-icon {
+  font-family: "oc-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.oc-icon-tubiao_gerenzhongxin-:before {
+  content: "\e620";
+}
+
+.oc-icon-fanhuishouye:before {
+  content: "\e64b";
+}
+
+.oc-icon-shujutu:before {
+  content: "\e6ef";
+}
+

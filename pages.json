@@ -1,0 +1,48 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "Health"
+      }
+    }, {
+      "path": "pages/data-visualization/data-visualization",
+      "style": {
+        "navigationBarTitleText": "Data visualization",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/user-center/user-center",
+      "style": {
+        "navigationBarTitleText": "user center",
+        "enablePullDownRefresh": false
+      }
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Health",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tabbar/index.png",
+        "selectedIconPath": "static/image/tabbar/indexActive.png",
+        "text": ""
+      }, {
+        "pagePath": "pages/data-visualization/data-visualization",
+        "iconPath": "static/image/tabbar/dataVisualization.png",
+        "selectedIconPath": "static/image/tabbar/dataVisualizationActive.png"
+      },{
+        "pagePath": "pages/user-center/user-center",
+        "iconPath": "static/image/tabbar/usercenter.png",
+        "selectedIconPath": "static/image/tabbar/usercenterActive.png"
+      }
+    ]
+  }
+}
